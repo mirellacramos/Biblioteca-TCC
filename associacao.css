@@ -1,0 +1,141 @@
+body{
+    font-family: calibri;
+    font-size: 17px;
+    background-color: plum;
+    margin: 0; 
+    padding: 0;
+}
+
+header {
+display: flex;
+justify-content: center;
+align-items: center;
+background-color: white; 
+padding: 55px; 
+position: relative;
+}
+
+.logo {
+position: absolute;
+left: 20px; 
+}
+
+.logo img {
+height: 105px;
+width: auto; 
+}
+
+nav ul {
+list-style-type: none;
+display: flex;
+gap: 30px; 
+margin: 0;
+padding: 0;
+}
+
+nav ul li {
+display: inline;
+}
+
+nav ul li a {
+text-decoration: none;
+color: purple; 
+font-size: 18px; 
+font-weight: normal;
+}
+
+nav ul li a:hover {
+color: #1a1a8b; 
+}
+
+.icon {
+    position: absolute; 
+    top: 20px; 
+    right: 55px; 
+    font-size: 27px;
+}
+
+.btn{
+    position: absolute; 
+    top: 20px; 
+    right: 10px; 
+    font-size: 12px;
+    background-color: white;
+    text-align: center;
+    border: none;
+    cursor: pointer;
+}
+
+.box{
+    color: white;
+    position: absolute;
+    top: 300%; 
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 15px;
+    border-radius: 15px;
+    width: 30%;
+}
+
+fieldset{
+    border: 3px solid rgb(210, 160, 221);
+}
+
+legend{
+    border: 1px solid rgb(210, 160, 221);
+    padding: 10px;
+    text-align: center;
+    background-color: rgb(210, 160, 221);
+    border-radius: 8px;
+    color: black;
+}
+
+.inputBox{
+    position: relative;
+}
+
+.inputUser{
+    background: none;
+    border: none;
+    border-bottom: 1px solid white;
+    outline: none;
+    color: white;
+    font-size: 15px;
+    width: 100%;
+    letter-spacing: 2px;
+}
+
+.labelInput{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    pointer-events: none;
+    transition: .5s;
+}
+
+.inputUser:focus ~ .labelInput,
+.inputUser:valid ~ .labelInput{
+    top: -20px;
+    font-size: 12px;
+    color: plum;
+}
+
+#submit{
+    background-image: linear-gradient(to right,rgb(161, 0, 197), rgb(90, 20, 220));
+    width: 100%;
+    border: none;
+    padding: 15px;
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+#submit:hover{
+    background-image: linear-gradient(to right,rgb(89, 0, 172), rgb(19, 66, 195));
+}
+
+#togglePassword {
+cursor: pointer;
+}

@@ -1,0 +1,119 @@
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white; 
+    padding: 55px; 
+    position: relative;
+    border-bottom: 2px solid #cccccc; /*estilo de separação*/
+}
+.logo {
+    position: absolute;
+    left: 20px; 
+}
+.logo img {
+    height: 105px; 
+    width: auto; 
+}
+nav ul {
+    list-style-type: none;
+    display: flex;
+    gap: 30px; /* Espaçamento entre os itens do menu */
+    margin: 0;
+    padding: 0;
+}
+nav ul li {
+    display: inline;
+}
+nav ul li a {
+    text-decoration: none;
+    color: purple; 
+    font-size: 18px; 
+    font-weight: normal;
+}
+nav ul li a:hover {
+    color: #1a1a8b;
+}
+.icon {
+    position: absolute; 
+    top: 20px; 
+    right: 55px; 
+    font-size: 27px; 
+}
+.btn{
+    position: absolute; 
+    top: 20px; 
+    right: 10px; 
+    font-size: 12px; 
+    background-color: white;
+    text-align: center;
+    border: none;
+    cursor: pointer;
+}
+body {
+    background-color: #f4f4f4;
+    font-family: calibri; 
+    font-size: 17px;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* Facilita o controle de espaçamento */
+}
+
+#formulário {
+    width: 33%; 
+    margin: 0 auto; 
+    padding: 13px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    background-color: #ffffff; 
+}
+#formulário h2 {
+    text-align: center;
+}
+#formulário label {
+    display: inline-block; 
+    width: 20%; 
+    margin-right: 5px;
+    vertical-align: middle; /* Alinha a label verticalmente com o input */
+    white-space: nowrap; /* Impede quebra de linha na label */
+}
+#formulário input[type="password"]{
+    display: inline-block;
+    width: 100%; 
+    padding: 6px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    background-color: #f3e6fa;
+}
+#formulário input[type="submit"] {
+    background-color: purple;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+#formulário input[type="submit"]:hover {
+    background-color: #45a049;
+}
+h2 {
+    font-family: helvetica;
+    color: purple;
+    text-align: center;
+    font-size: 17px;
+}
+#submit {
+    font-weight: bold;
+}
+#formulário input[type="text"]
+ {
+    display: inline-block;
+    width: 100%; 
+    padding: 6px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    background-color: #f3e6fa; 
+}
